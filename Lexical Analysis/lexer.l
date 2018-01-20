@@ -106,7 +106,6 @@ string \"(.^([%d]|[%f]|[%s]|[%c]))\"
 %%
 {space}* {}
 {tab}* {}
-
 {string} return STRING_CONST;
 {char} return CHAR_CONST;
 {line} {lineno++;}
