@@ -7,9 +7,8 @@ int main()
 	int i;
 	while(a<10)
 	{
-		printf("%d",a);
 		a++;
 	}
 	for(i=1;i<5;i++)
-		printf("%d",i);
+		a--;
 }
