@@ -7,7 +7,6 @@ int main()
 	if(a<10)
 	{
 		a = a + 1;
-		printf("\n%d\n",a);
 	}
 	else if(a<5)
 	{
@@ -17,5 +16,5 @@ int main()
 	{
 		a = a - 2;
 	}
-	return 0;
+	return;
 }
