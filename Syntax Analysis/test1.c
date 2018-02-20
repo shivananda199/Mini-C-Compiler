@@ -8,13 +8,9 @@ int main()
 	{
 		a = a + 1;
 	}
-	else if(a<5)
-	{
-		a = a + 2;
-	}
 	else
 	{
-		a = a - 2;
+		a = a + 2;
 	}
 	return;
 }
