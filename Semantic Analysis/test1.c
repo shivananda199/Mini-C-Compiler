@@ -9,6 +9,7 @@ int foo(int a)
 
 void main()
 {
+        int a,b,c;
 	int b;
 	b=5;
 	int c;
